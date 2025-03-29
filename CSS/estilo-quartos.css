@@ -56,40 +56,13 @@
 
 /* CONTEÚDO */
 .conteudo {
-    padding: 50px 0px;
+    padding: 50px 0;
 }
 
-.conteudo-1 {
-    height: 500px;
-    background-image: url("../Imagens/fundo.jpg");
+.imagem-fundo {
+    height: 250px;
+    background-image: url(../Imagens/fundo.jpg);
     background-size: cover;
-    background-position: center;
-    display: flex;
-}
-
-.chamada-1 {
-    width: 100%;
-    max-width: 400px;
-    padding: 30px;
-    margin: auto;
-    border: 1px solid #fff;
-    border-radius: 5px;
-    background-color: rgba(53, 148, 119, 0.7);
-    display: flex;
-    flex-flow: column wrap;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-}
-
-.chamada-1 h1 {
-    font-size: 40px;
-    color: #fff;
-}
-
-.chamada-1 p {
-    color: #fff;
-    font-size: 20px;
 }
 
 .chamada-fundo-branco {
@@ -102,83 +75,64 @@
     flex: 1 1 60%;
 }
 
-.chamada-fundo-branco h3 {
+.chamada-fundo-branco h2 {
     padding: 50px 20px 10px;
     font-size: 28px;
     font-weight: normal;
 }
 
-.container-quartos {
+.container-imagens {
     display: flex;
     flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 5px;
 }
 
-.quartos {
-    flex: 1 0 150px;
+.imagem-quarto {
+    width: 330px;
+    height: 200px;
 }
 
-.quartos-imagem img {
+.imagem-quarto img {
     width: 100%;
-    height: 100%;
+    height: 100%;    
 }
 
-.quartos a {
-    padding: 20px;
+.container-informacoes {
     margin: 0 auto;
+    padding: 20px 0;
     display: flex;
-    justify-content: center;
     align-items: center;
-    border-bottom: 2px solid #42776f;
+    flex-flow: column wrap;
 }
 
-.mapa {
-    max-width: 1920px;
+.container-informacoes h3 {
+    margin: 0 auto;
+    padding: 20px;
     display: flex;
 }
 
-.mapa iframe {
+.lista-quarto {
+    margin-left: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tabela {
+    display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
-    width: 100%;
+    justify-content: space-between;
 }
 
-.container-sobre {
-    display: flex;
-    flex-flow: row wrap;
+.linhas {
+    width: 200px;
+    flex-wrap: nowrap;
+    gap: 20px;
 }
 
-.sobre-descricao {
-    padding: 0 20px;
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    flex: 1 1 400px;
-    gap: 30px;
-}
-
-.descricao {
-    flex: 1 1 250px;
-}
-
-.descricao h4 {
-    padding: 5px 0;
-}
-
-.descricao p {
-    padding: 5px 2px 5px 0;
-    font-size: 14px;
-}
-
-.imagem-descricao {
-    width: 90px;
-    height: 100px;
-}
-
-.imagem-descricao img {
-    width: 100%;
-    height: 100%;
-}
-/* CONTEÚDO */
+/* CONTEÚDO*/
 
 /* RODAPÉ */
 .rodape {
