@@ -1,0 +1,65 @@
+@media (max-width: 765px){
+    .topo .container-topo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-bottom: 2px solid #42776f;    
+    }
+
+    .container-topo .link-logo-topo {
+        padding-bottom: 20px;
+    }
+    
+    .chamada-1 {
+        max-width: 300px;
+        text-align: center;
+    }
+
+    .chamada-1 h1 {
+        font-size: 32px;
+    }
+
+    .chamada-fundo-branco {
+        max-width: 350px;
+        padding: 30px 0 0px 0;
+    }
+
+    .chamada-fundo-branco h3 {
+        padding: 50px 0 0px 0;
+    }
+
+    .chamada-fundo-branco p {
+        text-align: center;
+        padding-top: 0;
+    }
+
+    .quartos a {
+        padding: 10px 0px;
+    }
+
+    .mapa {
+        height: 250px;
+        padding: 10px 10px;
+    }
+
+    .sobre-descricao {
+        padding: 5px 10px;
+        border-bottom: 2px solid #42776f;
+    }
+
+    .sobre-descricao .descricao p {
+        font-size: 12px;
+        text-align: left;
+        padding: 5px 0;
+    }
+
+    .imagem-descricao {
+        width: 120px;
+        height: 120px;
+    }
+
+    .descricao {
+        flex: 1 1 150px;
+    }
+}

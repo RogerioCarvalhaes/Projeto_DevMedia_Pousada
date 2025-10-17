@@ -1,0 +1,53 @@
+@media (max-width: 765px) {
+    .topo .container-topo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-bottom: 2px solid #42776f;    
+    }
+
+    .container-topo .link-logo-topo {
+        padding-bottom: 20px;
+    }
+
+    .chamada-fundo-branco {
+        max-width: 350px;
+        padding: 30px 0 0px 0;
+    }
+
+    .chamada-fundo-branco h2 {
+        padding: 50px 0 0px 0;
+    }
+
+    .chamada-fundo-branco p {
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    .container-imagens {
+        display: flex;
+        flex-wrap: row wrap;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 5px;
+    }
+
+    .imagem-quarto {
+        width: 190px;
+        height: 100px;
+    }
+
+    .container-informacoes {
+        border-bottom: 2px solid #42776f;
+        margin-bottom: 0;
+    }
+
+    .container-informacoes h3 {
+        padding: 0 0 10px 0;
+    }
+
+    .linhas {
+        width: 300px;
+    }
+}  

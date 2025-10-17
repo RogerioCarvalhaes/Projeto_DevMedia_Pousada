@@ -55,12 +55,8 @@
 /* TOPO */
 
 /* CONTEÚDO */
-.conteudo {
-    padding: 50px 0;
-}
-
 .imagem-fundo {
-    height: 250px;
+    height: 350px;
     background-image: url(../Imagens/fundo.jpg);
     background-size: cover;
 }
